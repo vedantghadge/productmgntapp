@@ -77,6 +77,10 @@ public class ProductController {
 
         return ResponseEntity.ok("All Data Deleted Successfully");
     }
+    @GetMapping("/sayhello")
+    public ResponseEntity<String> sayHello (){
+        return ResponseEntity.ok("welcome");
+    }
 
 
 }
